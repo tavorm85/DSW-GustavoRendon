@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 class="titulo">Estructura Básica de HTML</h1>
+    <header>
+       <nav class="navegacion">
+            <ul class="menu"> 
+                <li><a href="inicio.html"> INICIO</a></li>
+                <li><a href="concepto1.html"> CONCEPTOS</a>
+                <ul class="submenus">
+						<li><a href="concepto1.html">Concepto #1</a></li>
+						<li><a href="concepto2.html">Concepto #2</a></li>
+                </ul>
+                <li><a href="recursos.html"> RECURSOS</a>
+                    <ul class="submenus">
+						<li><a href="recurso1.html">Recurso #1</a></li>
+						<li><a href="recurso2.html">Recurso #2</a></li>
+                     </ul>
+                </li>
+                <li><a href="autoevaluacion.html"> AUTOEVALUACION</a>
+                    <ul class="submenus">
+						<li><a href="#">Autoevaluacion #1</a></li>
+						<li><a href="#">Autoevaluacion #2</a></li>
+                     </ul>
+                </li>
+                
+                <li><a href="autor.html"> AUTOR</a></li>
+            
+            </li>
+            </ul>
+        </nav>  
+       
+    <h2 class="subtitulo">CONCEPTO 1</h2>
+    <table class="tabla">
+        <tr>
+            <td>
+                <h2>Contenido</h2><br>
+            <p>En esta página explicaremos que es HTML,HTML5 y cómo es su estructura básica y los elementos que la componen, así como la
+                definición de lo que cada uno de ellos representa.
+            </p><br>
+            <h2>Estructura básica de HTML5</h2><br>
+                HTML5 es la versión 5 del lenguaje HTML. Aquí mostraremos un documento escrito en
+                HTML y su estructura básica:</p><br>
+            <img src="estructura.png" alt="estructura"> <br>
+        
+            En donde: <br><br>
+            <ul>
+                <li><strong>!DOCTYPE Html:</strong>
+                Es la declaración del tipo de documento que se está mostrando. Este variará según el tipo de documento.
+                </li><br>
+                <li><strong>html:</strong>
+                Una vez se declare el tipo de documento, debemos indicar que el documento se inicia, por tal motivo 
+                abrimos para iniciar y cerramos finalmente cuando terminemos el documento; por su parte el atributo
+                lang, significa el idioma en el que está escrito. 
+                </li><br>
+                <li><strong>head:</strong>
+                Esta será la cabecera en donde se colocarán los metadatos de la página, además del código JavaScript
+                y el CSS que el navegador va a utilizar. 
+                </li><br>
+                <li><strong>title:</strong>
+                Este metadato especial lo que hace es proporcionarnos el título de la página. Se recomienda que sea
+                parecido al H1 del documento y a la URL de la página.    
+                </li><br>
+                <li><strong>link:</strong>
+                Usada para enlazar JavaScript y CSS con el documento actual HTML.
+                </li><br>
+                <li><strong>meta:</strong>
+                Define los metadatos que no pueden ser definidos usando otros elementos de HTML.
+.               </li><br>
+                <li><strong>style:</strong>
+                Es una etiqueta de estilo usada para escribir CSS interno.
+                </li><br>
+                   
+            </ul>
+        </td>        
+        </tr>
+    </table>
+    <h2 class="subtitulo">BIBLIOGRAFIA</h2>
+    <table class="tabla">
+        <tr>
+            <td>
+            <p> Enium (2020). Estructuras y elementos semánticos. 
+                Recuperado de: https://www.eniun.com/html5-estructura-basica-elementos-semanticos/
+                .
+            </p><br>
+            <p> Enium (2020). Estructuras basica de un documento HTML5.[Imagen] 
+                Recuperado de: https://www.eniun.com/html5-estructura-basica-elementos-semanticos/     
+            </td>
+        </tr>
+    </table>
+    <br><br>
+</header>  
+</body>
+</html>
