@@ -20,7 +20,7 @@ header{
     color: white
 }
 .subtitulo {
-    margin-top: 115px;
+    margin-top: 30px;
     text-align: center;
     color: white;
 }
@@ -86,7 +86,7 @@ header{
     opacity: 1;
     }
 .tabla {
-    background: white;
+    background: #F0B429;
     color: #005883;
     width: 80%;
     margin-left: 150px;
