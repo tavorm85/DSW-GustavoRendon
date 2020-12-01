@@ -93,6 +93,12 @@ header{
     margin-right: 150px;
     margin-top: 10px;
 }
+.tabla2 {
+    background: #F0B429;
+    color: #005883;
+    width: 50%;
+    margin: auto;
+    }
 .foto {
     width: 30%;   
 }
