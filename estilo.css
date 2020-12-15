@@ -108,3 +108,49 @@ header{
     margin-right: 150px;
     margin-top: 10px;
 }
+
+body {
+  background-color:#34495e;
+}
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.field {
+  display:flex;
+  position:realtive;
+  margin:5em auto;
+  width:20%;
+  flex-direction:row;
+  box-shadow:
+   1px 1px 0 rgb(240, 180, 41),
+   2px 2px 0 rgb(240, 180, 41),
+   3px 3px 0 rgb(240, 180, 41),
+   4px 4px 0 rgb(240, 180, 41),
+   5px 5px 0 rgb(240, 180, 41),
+   6px 6px 0 rgb(240, 180, 41),
+   7px 7px 0 rgb(240, 180, 41)
+  ;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid rgb(240, 180, 41);
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:rgb(244, 121, 32);
+  color:white;
+  border:none;
+}
